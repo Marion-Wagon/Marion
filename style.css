@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Lora:wght@300;400;500;700");
+
+/*----- GLOBAL ----*/
+
+body {
+  color:rgb(36, 36, 36);
+  background-color: rgb(209, 209, 209);
+  /*background-image: url(https://images.pexels.com/photos/991831/pexels-photo-991831.jpeg);*/
+  background-image: url(https://images.pexels.com/photos/7680664/pexels-photo-7680664.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-size: 200px;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+h1, h2 {
+  color: #64a7b3;
+  font-family: 'Lora', serif;
+}
+h1, i {
+  font-size: 2.2rem;
+}
+h2 {
+  font-size: 1.4rem;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+.text-white {
+  color: #FFFFFF;
+}
+a {
+  text-decoration: none;
+  color: #64a7b3;
+
+}
+a:hover {
+  text-decoration: none;
+  color:#406b73;
+}
+.btn-blue {
+  color: #ffffff;
+  background-color: #64a7b3;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+.btn-blue:hover {
+  color: #ffffff;
+  background-color: #406b73;
+;
+}
+.card {
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+.card-white {
+  background-color: #ffffff;
+}
+.card-blue {
+  background-color: #64a7b3;
+}
+.card-blue h2, .card-blue a {
+  color: #FFFFFF;
+}
+
+/*----- STRUCTURE ----*/
+
+.container {
+  width: 55%;
+  margin: 30px auto 0px auto;
+
+}
+.pb-5 {
+  padding-bottom: 5rem;
+}
+.pb-2 {
+  padding-bottom: 2rem;
+}
+.pr-2 {
+  padding-right: 2rem;
+}
+.pl-2 {
+  padding-left: 2rem;
+}
+
+/*----- RESPONSIVE ----*/
+
+@media (min-width: 961px) {
+  /* Pour un écran > 960px, cette classe CSS s'applique */
+  .card-flex {
+    display: flex;
+  }
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  body {
+    font-size: 0.8rem;
+  }
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
